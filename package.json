@@ -1,0 +1,18 @@
+{
+  "name": "arbetsprov",
+  "version": "1.0.0",
+  "description": "A work sample, part of my technical interview at HL-design",
+  "repository": "https://github.com/AlexMidjich/Arbetsprov-HL-design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Midjich",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-useref": "^3.1.4"
+  }
+}
