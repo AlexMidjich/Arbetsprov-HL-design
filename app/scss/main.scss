@@ -309,7 +309,7 @@ body{
   }
 
 }
-@media (min-width: 840px){ /*small*/
+@media screen and (min-width: 840px){ /*small*/
   .hero{
     .navbar{
       width: 95%;

@@ -291,7 +291,7 @@ body {
     .banners .banner-right {
       width: 50%; } }
 
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
   /*small*/
   .hero .navbar {
     width: 95%;
