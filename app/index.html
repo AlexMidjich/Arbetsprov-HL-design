@@ -6,34 +6,31 @@
     <!-- build:css css/styles.min.css -->
     <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
   </head>
   <body>
-    <!-- <section class="page-content">
-      <div class="hero">
-        <img src="images/hero.png" alt="">
-        <div class="navbar">
-          <div class="logo">
-            <img src="images/logo.png"  />
-          </div>
-          <div class="menu">
-            <ul>
-              <a href=""><li>Men</li></a>
-              <a href=""><li>Women</li></a>
-            </ul>
-          </div>
+    <section class="hero">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/logo.png"  />
         </div>
-        <div class="cta-buttons">
-          <button></button>
-          <button>Learn more</button>
+        <div class="menu">
+          <ul>
+            <a href=""><li>Men</li></a>
+            <a href=""><li>Women</li></a>
+          </ul>
         </div>
       </div>
-    </section> -->
-    <section class="hero">
       <div class="slide fade">
         <img src="images/hero.png" alt="">
+        <div class="cta-buttons">
+          <button class="cta-one">Buy now</button>
+          <button class="cta-two">Learn more</button>
+        </div>
       </div>
       <div class="slide fade">
         <img src="images/herotwo.png" alt="">
@@ -49,8 +46,41 @@
       </div>
     </section>
 
+    <section class="products">
+      <div class="searchbox">
+        <form id="search-form">
+          <input type="text" name="search" value="" placeholder="Search product..." id="search">
+          <div class="product-search"><i class="fas fa-search"></i></div>
+        </form>
+      </div>
+      <div class="products-wrapper">
+
+      </div>
+    </section>
+    <section class="banners">
+      <div class="banner-left">
+        <div class="banner-text">
+          <h3>Fight Like a Spider</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ul labore et dolore magna aliqua.
+          </p>
+          <a href="" >Read more</a>
+        </div>
+      </div>
+      <div class="banner-right">
+        <div class="banner-text">
+          <h3>Run Like a Cheetah</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ul labore et dolore magna aliqua.
+          </p>
+          <a href="" >Read more</a>
+        </div>
+      </div>
+    </section>
+
     <!--build:js js/main.min.js -->
-    <script src="js/main.js" ></script>
+    <script src="js/slider.js" ></script>
+    <script src="js/api.js" ></script>
     <!-- endbuild -->
   </body>
 </html>

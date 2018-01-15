@@ -20,12 +20,3 @@ function showSlides() {
   dots[slideIndex-1].className += ' active';
   setTimeout(showSlides, 6000);
 }
-
-// $( document ).ready(function() {
-//   console.log('hej');
-//   const slide = $('slide');
-//   console.log(slide);
-//     $('.dot').click( function() {
-//       $('.slide')[0].addClass('active')
-//     });
-// });
